@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cielo Negro C A F E T E R I A</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <a href="index.html">
+          <img
+            src="img/logo.png"
+            alt="Logo de Cafetería Cielo Negro"
+            class="logo"
+          />
+        </a>
+      </div>
+      <div class="navbar-right">
+        <button class="view-cart-btn" onclick="toggleCart()">
+          Ver carrito
+        </button>
+        <div class="cart-dropdown" id="cart-dropdown">
+          <!-- Contenido del carrito se añadirá dinámicamente aquí -->
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <h1>Cielo Negro</h1>
+      <h2>C A F E T E R I A</h2>
+      <h2>Variedad de productos</h2>
+    </header>
+
+    <div id="product-list" class="product-list"></div>
+  </body>
+</html>
